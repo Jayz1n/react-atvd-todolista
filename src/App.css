@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #97c1eb; 
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App { 
+  background-color: #ffffff; 
+  border-radius: 15px;
+  padding: 30px; 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  width: 90%; 
+  max-width: 600px; 
+}
+
+h1 {
+  color: #333; 
+  margin-bottom: 25px;
+  font-size: 2.2em; 
+}
+
+form {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-size: 1em; 
+  transition: border 0.3s; 
+}
+
+input[type="text"]:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px; 
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 1em; 
+  transition: background 0.3s; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; 
+  word-break: break-word; 
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 15px; 
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 12px; 
+}
+
+span {
+  flex: 1; 
+}
+
+.edit-button, 
+.delete-button {
+  background-color: transparent;
+  border: none;
+  color: #555; 
+  padding: 8px 15px; 
+  cursor: pointer;
+  margin-left: 12px; 
+  font-size: 1em; 
+  transition: color 0.3s; 
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  color: #ff5e00; 
+}
